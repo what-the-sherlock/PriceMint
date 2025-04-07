@@ -63,7 +63,7 @@
     list-style: none;
 }
 
-.coin-info ul li: last_child{
+.coin-info ul li:last_child{
     font-weight: 300;
 }
 
