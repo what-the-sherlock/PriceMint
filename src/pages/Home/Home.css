@@ -122,3 +122,32 @@
     }
     
 }
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .pagination button {
+    background-color: #fff;
+    color: #7927ff;
+    border: 1px solid #7927ff;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+  }
+  
+  .pagination button:hover {
+    background-color: #7927ff;
+    color: #fff;
+  }
+  
+  .pagination .active-page {
+    background-color: #7927ff;
+    color: #fff;
+  }
+  

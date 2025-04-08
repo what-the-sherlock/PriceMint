@@ -1,0 +1,100 @@
+.compare-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+
+  }
+  
+  .compare-heading {
+    font-size: 2.2rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: white;
+  }
+  
+  .coin-selectors {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  
+  .coin-selectors select {
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+    border-radius: 12px;
+    border: 2px solid #d1d5db;
+    background:tran;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .coin-selectors select:hover {
+    border-color: #3b82f6;
+    background: #f0f9ff;
+  }
+  
+  .compare-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+  
+  @media (min-width: 768px) {
+    .compare-grid {
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+  }
+  
+  .compare-card {
+    background-color: transparent;
+    border-radius: 20px;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.05);
+    padding: 1.5rem;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .compare-card:hover {
+    transform: translateY(-4px);
+  }
+  
+  .compare-card img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 1rem;
+  }
+  
+  .compare-card h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1.2rem;
+    color: white;
+  }
+  
+  .stat {
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+    color:rgb(191, 200, 214);
+  }
+  
+  .stat strong {
+    color:rgb(228, 229, 231);
+  }
+  
+  .price-up {
+    color: #16a34a;
+    font-weight: bold;
+  }
+  
+  .price-down {
+    color: #dc2626;
+    font-weight: bold;
+  }
+  
