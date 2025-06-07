@@ -109,7 +109,15 @@ const Insights = () => {
       <div className="crypto-grid">
         {sampleArticles.map((article, index) => (
           <div key={index} className="crypto-card">
-            <img src={article.urlToImage} alt={article.title} className="crypto-image" />
+            
+            <a
+                href={article.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="crypto-title"
+              >
+                <img src={article.urlToImage} alt={article.title} className="crypto-image" />
+              </a>
             <div className="crypto-content">
               <a
                 href={article.url}
